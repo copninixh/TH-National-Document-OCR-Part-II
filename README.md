@@ -2,6 +2,8 @@
 Tesseract OCR Tools for read Thai National Document using TH Sarabun National Font for training and finetune.
 Read README.md to see my step to developing.
 
+All file : https://drive.google.com/drive/folders/1JuUmBAYpzvjRykUSpIMVhPmpL-sqgVLB?usp=sharing
+
 ## 0. Information
 ### 0.1 Tools 
 - Tesseact : https://github.com/tesseract-ocr/tesseract
@@ -21,19 +23,15 @@ Using Character Errorate and leght string (OCR & Correct Text) and output result
 ## 02.Generate dataset
 Using PIL library and using TH Sarabun formart font 72 px to create dataset.
 
-## 03.Calculate error rate (Manual)
-Using Character Errorate and leght string (OCR & Correct Text)
 
-## 04.Testing train and fine tune tesserct (default langdata_lstm)
+## 03.Testing train and fine tune tesserct (default langdata_lstm)
 Requirements langdata_lstm , tesseract , tessdata_best , 
 
-## 05.Train and fine tune
+## 04.Train and fine tune
 Custom tha_training_text with my own dataset more than 1 million sentences
 
-## 06.My model
-Coming soon
+## 05.Performance testing
+report_performace_final.csv
 
-## 07.Website for testing
-Coming soon
 
 
